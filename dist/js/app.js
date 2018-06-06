@@ -116,7 +116,7 @@ $(function () {
             url: '/main/synchronization',
             type: 'POST'
         }).done(function (response) {
-            if(response === 200) {
+            if(response === "200") {
                 loadCollections();
                 loadProducts();
             } else {

@@ -28,7 +28,7 @@ class MainController extends Controller
         $model->addProducts2Database();
         $model->addCollection2Database();
         $model->addRelation2Database();
-        header("Location: https://shopify.dev-gear.pp.ua/main/index");
+        echo 200;
     }
 
     public function getProducts()
